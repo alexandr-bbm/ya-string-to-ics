@@ -1,7 +1,7 @@
 const textarea = document.getElementById('input');
 const btn = document.getElementById('button');
 
-button.addEventListener('click', function() {
+btn.addEventListener('click', function() {
   getICS(
     parseYaString(textarea.value)
   );
