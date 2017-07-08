@@ -8,6 +8,8 @@ btn.addEventListener('click', function() {
   console.log(parseYaString(textarea.value));
 });
 
+'test';
+
 function getICS (schedule) {
   var calendar = ics();
   schedule.forEach((lesson) => {
